@@ -19,7 +19,6 @@ What would you do differently if you were allocated more time?
 Ans-Displaying each entiries in a different page.
 
 ### I'm also made screencast video of the project and showing its functionalities by running on browser.
-
-
+Screencast showing its functionalities on windows.mp4
 
  
