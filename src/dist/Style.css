@@ -1,0 +1,274 @@
+.mainHeader{
+    height: 45px;
+}
+
+.mainHeader .header{
+    height: 45px;
+    background-color:rgb(24, 79, 243);
+    padding: 6px 5%;
+}
+
+
+.header .headerName{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.header .rightHeader{
+    float: right;
+    color: white;
+    padding-top: 5px;
+
+}
+
+.rightHeader .login:hover{
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(226, 109, 109);
+    cursor: pointer;
+}
+
+.header .freeTrial{
+    background-color: rgb(58, 24, 24);
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+
+
+/* footer component */
+.footer{
+    background-color: black;
+    height: 130px;
+    padding: 1% 5%;
+    color: white;
+}
+
+.footer .footerList .link{
+    font-size: 10px;
+    color: white;
+}
+
+.footer .footerList .link:hover{
+    color: blue;
+}
+.footer .footerList .line{
+    font-size: 10px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.footer .copyright p{
+    padding-top: 0.5%;
+    color: grey;
+    font-size: 10px;
+}
+.footer .socialMediaIcon{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.footer .socialMediaIcon .socialLeft{
+    float: left;
+}
+.socialLeft i{
+    font-size: 20px;
+}
+.socialLeft i:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+.footer .socialMediaIcon .socialRight{
+    float: right;
+}
+.socialRight .socialRightView{
+    float: left;
+}
+.socialRight .imageLink{
+    text-decoration: none;
+}
+.socialRight img{
+    width: 70px;
+    cursor: pointer;
+}
+
+/* content page */
+.content{
+    min-height: 580px;
+    width: 100%;
+}
+.subHeader{
+    height: 35px;
+    background-color:rgb(58, 24, 24);
+    padding: 6px 5%;
+}
+
+.content .subHeader{
+    max-height: 35px;
+    background-color:rgb(33, 36, 39);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.subHeader .popular{
+    font-size: 15px;
+    color: white;
+}
+
+.content .row{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 1% 5%;
+    padding-bottom: 3%;
+    width: 100%;
+}
+
+.content .row .contentcard1{
+    float: left;
+    width: 200px;
+    height: 275px;
+    margin: 1% 0.5%;
+   
+}
+.content .row .contentcard1 span{
+    font-size: 15px;
+}
+.content .row .contentcard1 .card2{
+    width: 100%;
+    height: 250px;
+    background-image: url(./assets/videologo.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+.content .row .contentcard1 .card2 .titlename{
+    color: white;
+    font-weight: 900;
+    font-size: 35px;
+    text-align: center;
+    position: absolute;
+    padding: 100px 40px;
+}
+
+
+
+
+
+/* movies or series */
+.content .row .card1{
+    float: left;
+    width: 14.2857143%;
+    height: 90%;
+    padding: 1% 0.5%;
+}
+.content .row .card1 span{
+    font-size: 2vmin;
+}
+.content .row .card1 .card2{
+    width: 100%;
+    height: 90%;
+    background-color: black;
+}
+.card2 img{
+    width: 100%;
+    height: 90%;
+}
+
+
+@media (max-width: 460px) {
+    .rightHeader .login{
+        font-size: 12px;
+    }
+    
+    .header .freeTrial{
+        font-size: 12px;
+    }
+
+/* content */
+    .content .row .contentcard1{
+        width: 150px;
+        height: 230px;       
+    }
+    .content .row .contentcard1 span{
+        font-size: 10px;
+    }
+    .content .row .contentcard1 .card2{
+        width: 100%;
+        height: 210px;
+    
+    }
+
+    .content .row .contentcard1 .card2 .titlename{
+        font-size: 25px;
+        padding: 90px 35px;
+    }
+}
+
+@media (max-width: 400px) {
+    .rightHeader .login{
+        font-size: 10px;
+    }
+    
+    .header .freeTrial{
+        font-size: 10px;
+    }
+
+    /* content */
+    .content .row .contentcard1{
+        width: 130px;
+        height: 210px;
+       
+    }
+    .content .row .contentcard1 span{
+        font-size: 12px;
+    }
+    .content .row .contentcard1 .card2{
+        width: 100%;
+        height: 190px;
+    
+    }
+
+    .content .row .contentcard1 .card2 .titlename{
+        font-size: 20px;
+        padding: 80px 30px;
+    }
+    /* footer */
+    .socialLeft i{
+        font-size: 19px;
+    }
+    .socialRight img{
+        width: 60px;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 340px) {
+    .rightHeader .login{
+        font-size: 8px;
+    }
+    
+    .header .freeTrial{
+        font-size: 8px;
+    }
+
+    /* footer */
+    .footer{
+        height: 140px;
+
+    }
+    .socialLeft i{
+        font-size: 17px;
+    }
+    .socialRight img{
+        width: 50px;
+        cursor: pointer;
+    }
+}
